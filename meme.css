@@ -1,0 +1,82 @@
+body,
+button {
+    font-family: Montserrat;
+}
+
+body {
+    margin: 0px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: rgb(58, 85, 203);
+    text-shadow: 0 0 1px rgb(2, 18, 72), 0 0 1px rgb(2, 18, 72), 0 0 1px rgb(2, 18, 72), 0 0 1px rgb(2, 18, 72);
+    background-color: rgb(213, 224, 245);
+    margin: 0;
+    padding: 10px;
+}
+
+form {
+    background-color: rgb(213, 224, 245);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    border-top: 5px solid rgb(15, 49, 201);
+    border-bottom: 5px solid rgb(15, 49, 201);
+}
+
+button.submit {
+    font-weight: bolder;
+    background-color: aqua;
+    padding: 5px;
+}
+
+div.meme {
+    margin-top: 10px;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+button.remove {
+    position: absolute;
+    opacity: 0;
+    width: 75%;
+    height: 75%;
+    left: 30px;
+    top: 40px;
+    background-color: rgb(156, 251, 251);
+    font-size: 20px;
+}
+
+button.remove:hover {
+    opacity: 1;
+}
+
+p.top,
+p.bottom {
+    position: absolute;
+    margin: 0px;
+    left: 15px;
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+p.top {
+    top: 0.1px;
+}
+
+p.bottom {
+    bottom: 0.1px;
+}

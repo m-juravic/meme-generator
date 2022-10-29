@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Genterator</title>
+  <link rel="stylesheet" href="meme.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1><b>Create A Meme!</b></h1>
+  <h2>Fill out the form below to create memes!</h2>
+  <form>
+    <label for="memeUrl">Image URL</label>
+    <input type="url" placeholder="What's the URL for your meme image?" name="memUrl" id="memeURL" size="100%" required>
+    <br>
+    <br>
+    <label for="topText">Text On Top</label>
+    <input type="text" placeholder="(Optional) What text do you want at the top of the meme?" name="topText"
+      id="topText" size="100%">
+    <br>
+    <br>
+    <label for="bottomText">Text On Bottom</label>
+    <input type="text" placeholder="(Optional) What text do you want at the bottom of the meme?" name="bottomText"
+      id="bottomText" size="100%">
+    <br>
+    <br>
+    <button class="submit" type="submit">Add Meme</button>
+  </form>
+  <br>
+  <div id="memes" class="row">
+
+  </div>
+
+  <script src="meme.js"></script>
+</body>
+
+</html>
